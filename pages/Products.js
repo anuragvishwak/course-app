@@ -41,9 +41,9 @@ function Products() {
 
           <p>{course.courseDuration}</p>
 
-          <div className="bg-blue-50 p-3 rounded-xl border border-blue-400 my-3">
-            <p className="font-semibold text-blue-500">Description</p>
-           <p className="text-sm text-blue-400 line-clamp-2">
+          <div className="bg-[#f5feff] p-3 rounded-xl border border-[#2A8e9e] my-3">
+            <p className="font-semibold text-[#2A8e9e]">Description</p>
+           <p className="text-sm text-[#2A8e9e] line-clamp-2">
            {course.courseDescription}
            </p>
           </div>
